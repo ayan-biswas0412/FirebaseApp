@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.charleskorn.kaml:kaml:0.15.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.charleskorn.kaml/kaml/0.15.0/21b5c12a7bb79e2483e7d594681973d807eca093/kaml-0.15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.charleskorn.kaml/kaml/0.15.0/32d2068a0fc234aa45f4fcea637f98d3419af80c/kaml-0.15.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.charleskorn.kaml/kaml/0.15.0/f15e68fedd53d7c9396ae35b31d0348048ca553a/kaml-0.15.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
