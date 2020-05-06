@@ -1,0 +1,86 @@
+account:
+  - userId
+  - accountId
+  - accountType
+  - accountName
+  - bankName
+  - pfEmployeeContribution
+  - pfEmployerContribution
+  - tax
+  - medical:
+      - premium
+      - insuredAmount
+      - monthRecurrPremium
+  - dayOfSalary
+  - dayReminderSalary
+  - amount
+
+transaction:
+  - userId
+  - accountId
+  - dateOfTransaction
+  - transactionCategory
+  - creditBill :
+      - billableMonths
+      - interestRate
+      - noCostEMI
+
+  - food :
+      - onlineRestaurantYes
+      - localRestaurantYes
+
+  - travel
+  - cash
+  - grocery
+  - rent :
+      - recurringYes : true
+  - utilities
+  - telephoneBill:
+      - recurringYes : true
+  - appSubscription:
+      - recurringYes : true
+      - subscriptionEndDate
+      - subscriptionRenewal:
+          - monthly
+          - quarterly
+          - annually
+          - halfYearly
+  - cardFee
+  - money2Family
+  - money2Friend:
+      - needReminder : false
+      - splitPerson
+  - loan:
+      - emi
+      - endDate
+      - downPayment
+      - noCostEMI
+      - processingCharge
+
+  - specialOccasion:
+      - label
+
+investment:
+  - accountId
+  - userId
+  - amount
+  - startDate
+  - recurringYes : false
+  - timePeriodInvestment
+  - interestRate
+  - interestFixed : true
+  - investmentType:
+      - homeLoan
+      - mutualFund
+      - educationLoan
+      - medicalInsurance
+      - lifeInsurance
+      - fixedDeposit
+      - recurringDeposit
+      - gold:
+          - quantity
+      - share:
+          - preferential
+          - equity
+
+
