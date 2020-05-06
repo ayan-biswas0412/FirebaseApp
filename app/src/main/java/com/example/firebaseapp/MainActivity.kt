@@ -49,7 +49,10 @@ class MainActivity : AppCompatActivity() {
             if (resultCode == Activity.RESULT_OK) {
                 val user = FirebaseAuth.getInstance().currentUser
                 Toast.makeText(this, ""+user!!.email,Toast.LENGTH_SHORT).show()
-                Sign_out.isEnabled = true
+                /*Sign_out.isEnabled = true*/
+                var startIntent = Intent(applicationContext, ProfileActivity::class.java)
+                startActivity(startIntent)
+                finish()
 
             }
 
